@@ -3,3 +3,15 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.questions__tags__single {
+  text-align: center;
+  line-height: 40px;
+  min-height: 40px;
+  padding: 5px 15px 5px 15px;
+  box-shadow: 1px 1px 5px grey;
+  color: rgb(116, 100, 107);
+  background-color: #dfddd1;
+  border-radius: 20%;
+  border: none;
+  font-size: 1.6rem;
+}

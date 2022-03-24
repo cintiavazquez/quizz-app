@@ -5,3 +5,27 @@
 @import "./components/nav_icons.css";
 @import "./components/tags.css";
 @import "./components/titles.css";
+@import "./components/background.css";
+
+.question {
+  height: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  background-color: #dfddd1e8;
+  border-radius: 10%;
+  box-shadow: 2px 5px 5px #b02d59;
+}
+.question__wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+h2 {
+  color: #4e1a2a;
+}

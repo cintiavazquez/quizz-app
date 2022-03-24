@@ -1,0 +1,16 @@
+.bookmark {
+  fill: white;
+  transition: 1s;
+  height: 40px;
+  width: 40px;
+}
+.bookmark:hover {
+  fill: #b02d59;
+  transform: rotatey(180deg);
+}
+
+.question__bookmark {
+  position: absolute;
+  top: -15px;
+  right: 5%;
+}
