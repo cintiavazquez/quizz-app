@@ -8,58 +8,83 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Roboto:wght@100&family=Tinos:wght@400;700&display=swap");
     </style>
-    <title>Document</title>
+    <title>Quiz-app</title>
   </head>
   <body>
     <main>
       <header>
-        <h1>CREATE</h1>
+        <nav class="nav__top">
+          <h1>CREATE</h1>
+        </nav>
       </header>
       <!-- form>article*2>h2+{input[type="textarea"][label=""][placeholder=""]} -->
 
-      <form action="">
+      <form class="form" action="">
         <article>
-          <label for="Add question"
-            ><h2>Lorem ipsum dolor sit amet consectetur.</h2></label
-          >
+          <label for="Add question">
+            <!-- <h2>Lorem ipsum dolor sit amet consectetur.</h2> -->
+          </label>
           <input
+            class="input-field"
             type="textarea"
             id="Add question"
             placeholder="Add your question here"
           />
         </article>
         <article>
-          <label for="Add answer"
-            ><h2>Lorem ipsum dolor sit amet consectetur.</h2></label
-          >
+          <label for="Add answer">
+            <!-- <h2>Lorem ipsum dolor sit amet consectetur.</h2> -->
+          </label>
           <input
+            class="input-field"
             type="textarea"
             id="Add answer"
             placeholder="Add your answer here"
           />
         </article>
         <article>
-          <label for="Add tags"
-            ><h2>Lorem ipsum dolor sit amet consectetur.</h2></label
-          >
+          <label for="Add tags">
+            <!-- <h2>Lorem ipsum dolor sit amet consectetur.</h2> -->
+          </label>
           <input
+            class="input-field"
             type="textarea"
             id="Add tags"
             placeholder="Add your tags separated by commas"
           />
         </article>
 
-        <button class="button--submit" type="submit">Submit</button>
+        <button class="button button--submit" type="submit">Submit</button>
       </form>
     </main>
 
     <footer class="footer">
       <nav>
         <ul class="nav__list">
-          <li class="nav__li1">a</li>
-          <li class="nav__bookmark">b</li>
-          <li class="nav__li3">c</li>
-          <li class="nav__li4">d</li>
+          <li class="nav__list_item">
+            <a href="./index.html">
+              <img src="./components/images/cottage_black_24dp.svg" alt="Home"
+            /></a>
+          </li>
+          <li class="nav__list_item">
+            <a href="./bookmarks.html">
+              <img
+                src="./components/images/bookmark_white_24dp.svg"
+                alt="Bookmarks"
+            /></a>
+          </li>
+          <li class="nav__list_item">
+            <a href="./create.html"
+              ><img src="./components/images/add_black_24dp.svg" alt="Create"
+            /></a>
+          </li>
+          <li class="nav__list_item">
+            <a href="./profile.html"
+              ><img
+                src="./components/images/person_black_24dp.svg"
+                alt="Profile"
+            /></a>
+          </li>
         </ul>
       </nav>
     </footer>

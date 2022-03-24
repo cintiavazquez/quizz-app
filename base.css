@@ -11,9 +11,20 @@ html {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+
 body {
   max-width: 500px;
   margin: auto;
   font-family: "Baloo 2";
   font-size: 1.8rem;
+}
+
+main {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
 }

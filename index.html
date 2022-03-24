@@ -12,11 +12,13 @@
   </head>
   <body>
     <header>
-      <h1 class="title">DEVELOPER-QUIZ-APP</h1>
+      <nav class="nav__top">
+        <h1>DEVELOPER-QUIZ-APP</h1>
+      </nav>
     </header>
     <main>
       <article class="question">
-        <h2>Question</h2>
+        <h2 class="title">Question</h2>
         <aside class="question__bookmark">
           <svg
             class="bookmark"
@@ -33,8 +35,8 @@
             Which symbol is used to number items in Emmet?
           </p>
           <button class="button">Show answer</button>
-          <section class="question__answer">
-            <button class="button--hide">Hide answer</button>
+          <section class="question__text">
+            <button class="button button--hide">Hide answer</button>
             <p>The dollar ($) symbol, i.e.: <code>p.item$*5</code>.</p>
             <section class="question__tags">
               <p class="questions__tags__single">Web-Developement</p>
@@ -45,7 +47,7 @@
         </div>
       </article>
       <article class="question">
-        <h2>Question</h2>
+        <h2 class="title">Question</h2>
         <aside class="question__bookmark">
           <svg
             class="bookmark"
@@ -63,8 +65,8 @@
             What is the specifity of the universal selector (*)?
           </p>
           <button class="button">Show answer</button>
-          <section class="question__answer">
-            <button class="button--hide">Hide answer</button>
+          <section class="question__text">
+            <button class="button button--hide">Hide answer</button>
             <p>The universal selector has low specifity (zero).</p>
             <section class="question__tags">
               <p class="questions__tags__single">Web-Developement</p>
@@ -75,7 +77,7 @@
         </div>
       </article>
       <article class="question">
-        <h2>Question</h2>
+        <h2 class="title">Question</h2>
         <aside class="question__bookmark">
           <svg
             class="bookmark"
@@ -93,8 +95,8 @@
             the full height of the page (Html)?
           </p>
           <button class="button">Show answer</button>
-          <section class="question__answer">
-            <button class="button--hide">Hide answer</button>
+          <section class="question__text">
+            <button class="button button--hide">Hide answer</button>
             <p>
               You should use percentages (%), not vh (in case the content is
               longer than the viewport).
@@ -111,12 +113,33 @@
     <footer class="footer">
       <nav>
         <ul class="nav__list">
-          <li class="nav__li1"></li>
-          <li class="nav__bookmark"></li>
-          <li class="nav__li3"></li>
-          <li class="nav__li4"></li>
+          <li class="nav__list_item">
+            <a href="./index.html">
+              <img src="./components/images/cottage_black_24dp.svg" alt="Home"
+            /></a>
+          </li>
+          <li class="nav__list_item">
+            <a href="./bookmarks.html">
+              <img
+                src="./components/images/bookmark_white_24dp.svg"
+                alt="Bookmarks"
+            /></a>
+          </li>
+          <li class="nav__list_item">
+            <a href="./create.html"
+              ><img src="./components/images/add_black_24dp.svg" alt="Create"
+            /></a>
+          </li>
+          <li class="nav__list_item">
+            <a href="./profile.html"
+              ><img
+                src="./components/images/person_black_24dp.svg"
+                alt="Profile"
+            /></a>
+          </li>
         </ul>
       </nav>
     </footer>
+    ∏
   </body>
 </html>

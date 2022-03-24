@@ -10,6 +10,6 @@
   border-radius: 20%;
   border: none;
   box-shadow: 1px 1px 5px grey;
-  color: rgb(116, 100, 107);
-  background-color: #dfddd1;
+  color: var(--light-color);
+  background-color: var(--medium-color);
 }

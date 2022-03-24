@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-app</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Roboto:wght@100&family=Tinos:wght@400;700&display=swap");
+    </style>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1 class="title">QUIZ-APP</h1>
-    </header>
+    <nav class="nav__top">
+      <h1>Bookmarks</h1>
+    </nav>
     <main>
       <article class="question">
-        <h2>Question</h2>
+        <h2 class="title">Question</h2>
         <aside class="question__bookmark">
           <svg
             class="bookmark"
@@ -28,22 +31,28 @@
           </svg>
         </aside>
         <div class="question__wrap">
-          <p class="question__text"></p>
+          <p class="question__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            ducimus officia quos cum modi obcaecati dolor!.
+          </p>
           <button class="button">Show answer</button>
-          <section class="question__answer">
-            <button class="button--hide">Hide answer</button>
-            <p></p>
+          <section class="question__text">
+            <button class="button button--hide">Hide answer</button>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              ducimus officia quos cum modi obcaecati dolor!
+            </p>
             <section class="question__tags">
-              <p class="questions__tags__single"></p>
-              <p class="questions__tags__single"></p>
-              <p class="questions__tags__single"></p>
-              <p class="questions__tags__single"></p>
+              <p class="questions__tags__single">tag</p>
+              <p class="questions__tags__single">tag</p>
+              <p class="questions__tags__single">tag</p>
+              <p class="questions__tags__single">tag</p>
             </section>
           </section>
         </div>
       </article>
       <article class="question">
-        <h2>Question</h2>
+        <h2 class="title">Question</h2>
         <aside class="question__bookmark">
           <svg
             class="bookmark"
@@ -58,16 +67,22 @@
           </svg>
         </aside>
         <div class="question__wrap">
-          <p class="question__text"></p>
+          <p class="question__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            ducimus officia quos cum modi obcaecati dolor!
+          </p>
           <button class="button">Show answer</button>
-          <section class="question__answer">
-            <button class="button--hide">Hide answer</button>
-            <p></p>
+          <section class="question__text">
+            <button class="button button--hide">Hide answer</button>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              ducimus officia quos cum modi obcaecati dolor!
+            </p>
             <section class="question__tags">
-              <p class="questions__tags__single"></p>
-              <p class="questions__tags__single"></p>
-              <p class="questions__tags__single"></p>
-              <p class="questions__tags__single"></p>
+              <p class="questions__tags__single">tag</p>
+              <p class="questions__tags__single">tag</p>
+              <p class="questions__tags__single">tag</p>
+              <p class="questions__tags__single">tag</p>
             </section>
           </section>
         </div>
@@ -76,10 +91,30 @@
     <footer class="footer">
       <nav>
         <ul class="nav__list">
-          <li class="nav__li1">a</li>
-          <li class="nav__bookmark">b</li>
-          <li class="nav__li3">c</li>
-          <li class="nav__li4">d</li>
+          <li class="nav__list_item">
+            <a href="./index.html">
+              <img src="./components/images/cottage_black_24dp.svg" alt="Home"
+            /></a>
+          </li>
+          <li class="nav__list_item">
+            <a href="./bookmarks.html">
+              <img
+                src="./components/images/bookmark_white_24dp.svg"
+                alt="Bookmarks"
+            /></a>
+          </li>
+          <li class="nav__list_item">
+            <a href="./create.html"
+              ><img src="./components/images/add_black_24dp.svg" alt="Create"
+            /></a>
+          </li>
+          <li class="nav__list_item">
+            <a href="./profile.html"
+              ><img
+                src="./components/images/person_black_24dp.svg"
+                alt="Profile"
+            /></a>
+          </li>
         </ul>
       </nav>
     </footer>
