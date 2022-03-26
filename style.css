@@ -1,0 +1,91 @@
+@import "base.css";
+@import "./components/bookmark.css";
+@import "./components/buttons.css";
+@import "./components/nav_icons.css";
+@import "./components/tags.css";
+@import "./components/titles.css";
+@import "./components/background.css";
+@import "./components/input.css";
+@import "./components/colors.css";
+
+.question {
+  height: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  position: relative;
+  padding: 20px 20px 20px 20px;
+  background-color: #fefefebd;
+  border-radius: 30px;
+  box-shadow: 2px 5px 5px #b02d59;
+}
+
+.question__wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.question__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  font-family: inherit;
+}
+.nav__top {
+  text-align: center;
+  background-color: rgb(29, 29, 73);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 8vh;
+  width: 100vw;
+  z-index: 50;
+  color: white;
+}
+.nav__list {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 8vh;
+  width: 101vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  background-color: #1d1d49;
+}
+
+.nav__list_item {
+  border-right: 2px solid white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  border: 6px double var(--lightest-color);
+  background-color: var(--darkest-color);
+  border-radius: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

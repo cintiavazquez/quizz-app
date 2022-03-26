@@ -1,0 +1,6 @@
+.title {
+  color: var(--darkest-color);
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
