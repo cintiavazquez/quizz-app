@@ -16,7 +16,7 @@
   margin-bottom: 15px;
   position: relative;
   padding: 20px 20px 20px 20px;
-  background-color: rgba(246, 196, 213, 0.803);
+  background-color: #fefefebd;
   border-radius: 30px;
   box-shadow: 2px 5px 5px #b02d59;
 }
@@ -72,5 +72,20 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
+  gap: 20px;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  border: 6px double var(--lightest-color);
+  background-color: var(--darkest-color);
+  border-radius: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }

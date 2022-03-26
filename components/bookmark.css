@@ -1,11 +1,17 @@
 .bookmark {
-  fill: white;
+  fill: var(--lightest-color);
+  background-color: var(--light-color);
+  border: 2px solid var(--lightest-color);
+  border-radius: 50px;
+  padding: 4px;
   transition: 1s;
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
 }
 .bookmark:hover {
   fill: #b02d59;
+  background-color: transparent;
+  border: none;
   transform: rotatey(180deg);
 }
 
