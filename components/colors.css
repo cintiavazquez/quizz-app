@@ -3,7 +3,14 @@
 :root {
   --darkest-color: #1d1d49;
   --dark-color: #b02d59;
-  --medium-color: #d76f91;
   --light-color: rgb(246, 196, 213);
   --lightest-color: #f9f9f9;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --darkest-color: #9f799dfe;
+    --dark-color: rgb(246, 196, 213);
+    --light-color: #b02d59;
+    --lightest-color: #1d1d49;
+  }
 }

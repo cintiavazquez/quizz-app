@@ -3,3 +3,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url(./images/Polygon\ Luminary-dark-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

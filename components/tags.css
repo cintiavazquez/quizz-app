@@ -16,3 +16,9 @@
   border: none;
   font-size: 1.6rem;
 }
+
+@media (prefers-color-scheme: dark) {
+  .questions__tags__single {
+    background-color: var(--lightest-color);
+  }
+}
