@@ -1,0 +1,38 @@
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  border: 6px double var(--lightest-color);
+  background-color: var(--darkest-color);
+  border-radius: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  height: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  position: relative;
+  color: var(--darkest-color);
+  background-color: #b55271e3;
+  padding: 10px;
+  border-radius: 40px;
+}
+@media (prefers-color-scheme: dark) {
+  .profile {
+    color: var(--darkest-color);
+    background-color: transparent;
+  }
+}
+
+.main-profile {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+}

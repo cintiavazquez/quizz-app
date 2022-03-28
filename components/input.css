@@ -1,12 +1,9 @@
 .input-field {
   min-height: 15vh;
-  min-width: 70vw;
+  width: 70vw;
   text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
   border-top: 4px solid var(--darkest-color);
   background-color: #f8f1f7a9;
-  /* box-shadow: 2px 5px 5px #b02d59; */
   color: var(--darkest-color);
   border-radius: 5px;
   border-bottom: 4px solid var(--darkest-color);
