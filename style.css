@@ -23,3 +23,7 @@
   margin-right: auto;
   margin-bottom: 15px;
 }
+
+.display-none {
+  display: none;
+}

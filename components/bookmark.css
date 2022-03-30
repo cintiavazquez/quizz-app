@@ -8,12 +8,13 @@
   height: 60px;
   width: 60px;
 }
-.bookmark:hover {
+
+/* .bookmark:hover {
   fill: #b02d59;
   background-color: transparent;
   border: none;
   transform: rotatey(180deg);
-}
+} */
 
 .question__bookmark {
   position: absolute;
