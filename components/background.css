@@ -1,5 +1,10 @@
 body {
-  background-image: url(./images/lightpink_Polygon\ Luminarylightpink.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(./images/lightpink_Polygon\ Luminarylightpink.svg) no-repeat
+    fixed center;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: url(./images/Polygon\ Luminary-dark-bg.svg) no-repeat fixed
+      center;
+  }
 }
