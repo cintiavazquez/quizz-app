@@ -1,6 +1,6 @@
 @import "base.css";
-@import "./components/bookmark.css";
-@import "./components/buttons.css";
+@import "./components/bookmark/bookmark.css";
+@import "./components/buttons/buttons.css";
 @import "./components/nav_icons.css";
 @import "./components/tags.css";
 @import "./components/titles.css";
