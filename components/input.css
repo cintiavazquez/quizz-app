@@ -1,6 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+  margin: auto;
+}
+
+.form__add-question,
+.form__add-answer,
+.form__add-tags {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
 .input-field {
   min-height: 15vh;
-  width: 70vw;
   text-decoration: none;
   border-top: 4px solid var(--darkest-color);
   background-color: #f8f1f7a9;
