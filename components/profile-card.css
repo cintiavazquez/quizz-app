@@ -24,8 +24,7 @@
 }
 @media (prefers-color-scheme: dark) {
   .profile {
-    color: var(--darkest-color);
-    background-color: transparent;
+    color: var(--lightest-color);
   }
 }
 

@@ -9,13 +9,6 @@
   width: 60px;
 }
 
-/* .bookmark-active {
-  fill: #b02d59;
-  background-color: transparent;
-  border: none;
-  transform: rotatey(180deg);
-}  */
-
 .question__bookmark {
   position: absolute;
   top: -15px;

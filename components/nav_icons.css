@@ -1,3 +1,8 @@
 .nav__list_item {
-  align-self: center;
+  border-right: 2px solid var(--lightest-color);
+}
+
+.nav-icon_active {
+  background-color: var(--dark-color);
+  height: inherit;
 }
