@@ -1,6 +1,6 @@
-export default function Buttons(buttonElement) {
-  const buttonshow = buttonElement.querySelector(".js-button");
-  const answer = buttonElement.querySelector(".js-answer");
+export default function Buttons(questionElement) {
+  const buttonshow = questionElement.querySelector(".js-button");
+  const answer = questionElement.querySelector(".js-answer");
 
   buttonshow.addEventListener("click", () => {
     answer.classList.toggle("display-none");

@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   width: 50vw;
+  color: var(--darkest-color);
 }
 
 .input-field {
@@ -31,4 +32,14 @@
 ::placeholder {
   color: var(--darkest-color);
   font-family: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  ::placeholder {
+    color: var(--lightest-color);
+  }
+
+  .input-field {
+    color: var(--lightest-color);
+  }
 }
