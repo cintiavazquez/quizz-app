@@ -2,7 +2,8 @@ export default function Buttons(questionElement) {
   const buttonshow = questionElement.querySelector('.js-button');
   const answer = questionElement.querySelector('.js-answer');
 
-  buttonshow.addEventListener("click", () => {
+  buttonshow.addEventListener('click', () => {
+    console.log('t');
     answer.classList.toggle('display-none');
     if (buttonshow.textContent == 'Show answer') {
       buttonshow.textContent = 'Hide answer';
