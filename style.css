@@ -1,15 +1,15 @@
-@import "base.css";
-@import "./components/bookmark/bookmark.css";
-@import "./components/buttons/buttons.css";
-@import "./components/nav_icons.css";
-@import "./components/tags.css";
-@import "./components/titles.css";
-@import "./components/background.css";
-@import "./components/input.css";
-@import "./components/colors.css";
-@import "./components/question-post.css";
-@import "./components/navigation.css";
-@import "./components/profile-card.css";
+@import 'base.css';
+@import './components/bookmark/bookmark.css';
+@import './components/buttons/buttons.css';
+@import './components/nav_icons.css';
+@import './components/tags.css';
+@import './components/titles.css';
+@import './components/background.css';
+@import './components/input.css';
+@import './components/colors.css';
+@import './components/question-post.css';
+@import './components/navigation.css';
+@import './components/profile-card.css';
 
 .display-none {
   display: none;
